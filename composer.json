@@ -1,0 +1,34 @@
+{
+    "name": "rabsana/core",
+    "description": "The Rabsana Core",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Sajad Shouli",
+        "email": "sajadshouli0@gmail.com"
+    }],
+    "require-dev": {
+        "orchestra/testbench": "^6.20"
+    },
+    "autoload": {
+        "psr-4": {
+            "Rabsana\\Core\\": "src/",
+            "Rabsana\\Core\\Database\\": "database/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rabsana\\Core\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Rabsana\\Core\\Providers\\CoreServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "morilog/jalali": "3.*"
+    }
+}
