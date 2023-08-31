@@ -1,11 +1,13 @@
 {
     "name": "rabsana/core",
     "description": "The Rabsana Core",
+    "homepage": "https://github.com/rabsana/core",
     "type": "library",
     "license": "MIT",
     "authors": [{
-        "name": "Sajad Shouli",
-        "email": "sajadshouli0@gmail.com"
+        "name": "Sajjad Sisakhti",
+        "email": "sajjad.30sakhti@gmail.com",
+        "homepage": "https://rabsana.ir"
     }],
     "require-dev": {
         "orchestra/testbench": "^6.20"
