@@ -3,6 +3,7 @@
     "description": "The Rabsana Core",
     "homepage": "https://github.com/rabsana/core",
     "type": "library",
+    "keywords": "rabsana, laravel, math, json",
     "license": "MIT",
     "authors": [{
         "name": "Sajjad Sisakhti",
